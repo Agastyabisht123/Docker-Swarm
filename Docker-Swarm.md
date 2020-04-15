@@ -1,4 +1,3 @@
-###### Read the Docker.md file first for better understanding on Docker, Dockerfile & Docker-compose
 
 # Docker-Swarm
 
