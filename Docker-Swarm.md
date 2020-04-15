@@ -12,6 +12,12 @@ You need to do
 - Scaling the containers up or down depending on the load
 - Adding updates/changes to all the containers
 
+##### Features of Docker Swarm
++ Decentralized access
++ High Security
++ Auto load balancing
++ High Scalability
+
 Orchestration - managing and controlling multiple docker containers as a single service
 Tools available - Docker Swarm, Kubernetes, Apache Mesos
 
