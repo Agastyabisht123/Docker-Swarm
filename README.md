@@ -31,7 +31,8 @@
   + To kill a running container
 
 	`$ docker kill <CONTAINER ID>`
-	`$ docker kill <CONTAINER ID_1> <CONTAINER ID_2> <CONTAINER ID_3> (To Kill multiple container)'
+	
+	`$ docker kill <CONTAINER ID_1> <CONTAINER ID_2> <CONTAINER ID_3> (To Kill multiple container)`
 	
 
   + Create code/application file, Dockerfile & requirements.txt file.
