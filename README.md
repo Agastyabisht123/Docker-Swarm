@@ -122,9 +122,11 @@ Syntex -
 ## Run your image as a container:
 
 	`$ docker run --publish 8000:8080 --detach --name bb bulletinboard:1.0`
+	
+	`$ docker run -p 8000:8080 -d --name bb bulletinboard:1.0`
 
-  +  publish: asks Docker to forward traffic incoming on the host’s port 8000, to the container’s port 8080(specified in dockerfile). Containers have their own private set of ports, so if you want to reach one from the network, you have to forward traffic to it in this way.
-  +  detach: asks Docker to run this container in the background.
+  +  publish or -p: asks Docker to forward traffic incoming on the host’s port 8000, to the container’s port 8080(specified in dockerfile). Containers have their own private set of ports, so if you want to reach one from the network, you have to forward traffic to it in this way.
+  +  detach or -d: asks Docker to run this container in the background.
   +  name specifies a name with which you can refer to your container in subsequent commands, in this case bb.
 
 ##### Container can be delete using: `$docker rm --force bb`
