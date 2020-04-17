@@ -108,7 +108,8 @@ Syntex -
 
 ## To build an image from dockerfile:
 
-	`$ docker build .`
+	`$ docker build -t TagTheImage:latest .`
++ We are building an image with the tag ( --tag , -t ) Name:latest that includes everything in the current directory, .
 +  The build is run by the Docker daemon, not by the CLI. The first thing a build process does is send the entire context (recursively) to the daemon.
 +  Traditionally, the Dockerfile is called Dockerfile and located in the root of the context. You use the -f flag with docker build to point to a Dockerfile anywhere in your file system.
 
